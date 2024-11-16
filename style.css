@@ -1,0 +1,179 @@
+ /* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body setup */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+/* Main container for the login page */
+.container {
+  width: 100%;
+  max-width: 400px;
+  background-color: #141414;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+/* Netflix Logo */
+h1 {
+  font-size: 3rem;
+  color: #e50914;
+  margin-bottom: 30px;
+}
+
+/* Form heading */
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Input group container */
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #333;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Focused input styling */
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: #e50914;
+}
+
+/* Label for the input fields */
+label {
+  position: absolute;
+  top: -8px;
+  left: 12px;
+  background-color: #141414;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+/* Submit button */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f40612;
+}
+
+/* Help section (Remember me, Help link) */
+.help-section {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.remember-me input {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 2px solid #333;
+  background-color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remember-me input:checked {
+  background-color: #e50914;
+  border-color: #e50914;
+}
+
+.remember-me label {
+  color: #bbb;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Remember me hover effect */
+.remember-me input:hover {
+  background-color: #555;
+  border-color: #555;
+}
+
+.help-link {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.help-link:hover {
+  text-decoration: underline;
+}
+
+/* Sign-up text */
+p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+p a {
+  color: #e50914;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* Footer small print */
+small {
+  font-size: 12px;
+  color: #888;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+small a {
+  color: #e50914;
+  text-decoration: none;
+}
+
+small a:hover {
+  text-decoration: underline;
+}
+body{
+  background-image: url(https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg);
+}
